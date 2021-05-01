@@ -1,0 +1,16 @@
+{
+  "entries": {
+  },
+  "system": {
+    "macos": {
+      "catalina": {
+        "HOMEBREW_VERSION": "3.1.5-8-geae3558",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "5f801221a93adf61feed34771c7ba34c66b95f5c",
+        "CLT": "12.4.0.0.1.1610135815",
+        "Xcode": "12.0",
+        "macOS": "10.15.7"
+      }
+    }
+  }
+}

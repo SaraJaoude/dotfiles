@@ -3,4 +3,29 @@
 - link:
     ~/.gitconfig: gitconfig
 
-
+- shell:
+    -
+        command: which brew || sh -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install.sh)"
+        description: Install brew if doesnt exist
+        stdin: true
+        stdout: true
+    -
+        command: brew update
+        description: Update brew
+        stdin: true
+        stdout: true
+    -
+        command: brew upgrade
+        description: Update brew dependencies
+        stdin: true
+        stdout: true
+    -
+        command: brew bundle --file=brew
+        description: Install brew packages
+        stdin: true
+        stdout: true
+    -
+        command: brew bundle --file=brew-cast
+        description: Install brew packages
+        stdin: true
+        stdout: true

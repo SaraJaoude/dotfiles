@@ -1,0 +1,7 @@
+tap 'homebrew/cask'
+
+cask 'discord'
+cask 'google-chrome'
+cask 'slack'
+cask 'visual-studio-code'
+cask 'vlc'
