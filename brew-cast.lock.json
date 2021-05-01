@@ -1,0 +1,59 @@
+{
+  "entries": {
+    "tap": {
+      "homebrew/cask": {
+        "revision": "ea4b3d7082376260d12e212543c87d1299bacabe"
+      }
+    },
+    "cask": {
+      "discord": {
+        "version": "0.0.262",
+        "options": {
+          "full_name": "discord"
+        }
+      },
+      "google-chrome": {
+        "version": "90.0.4430.93",
+        "options": {
+          "full_name": "google-chrome"
+        }
+      },
+      "slack": {
+        "version": "4.15.0",
+        "options": {
+          "full_name": "slack"
+        }
+      },
+      "visual-studio-code": {
+        "version": "1.55.2",
+        "options": {
+          "full_name": "visual-studio-code"
+        }
+      },
+      "vlc": {
+        "version": "3.0.12",
+        "options": {
+          "full_name": "vlc"
+        }
+      },
+      "zoom": {
+        "version": "5.6.4.765",
+        "options": {
+          "full_name": "zoom"
+        }
+      }
+    }
+  },
+  "system": {
+    "macos": {
+      "big_sur": {
+        "HOMEBREW_VERSION": "3.1.5",
+        "HOMEBREW_PREFIX": "/usr/local",
+        "Homebrew/homebrew-core": "0d2708c156411c9c43b10e135e1ffb83b0c88e6c",
+        "CLT": "12.5.0.0.1.1617976050",
+        "Xcode": "12.0",
+        "macOS": "11.3"
+      }
+    }
+  }
+}
